@@ -1,0 +1,19 @@
+.wrapper {
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dishes-buttons-rows {
+    /* height: 100px; */
+}
+
+.dish-pic {}
+
+.dish-prize-label {}
+
+.dish-prize-title {}
+
+.dish-prize-price {}
+
+.dish-get {}
