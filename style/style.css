@@ -1,7 +1,7 @@
 .wrapper {
     /* background-color: aqua; */
     display: flex;
-    margin-left: 5%;
+
     margin-right: 5%;
     float: left;
     /* border-style: groove; */
@@ -16,7 +16,7 @@
     float: left;
     justify-content: space-between;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .dish-pic {
