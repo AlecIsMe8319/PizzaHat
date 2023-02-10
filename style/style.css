@@ -21,6 +21,8 @@
 
 .dish-pic {
     /* display: flex; */
+    justify-content: center;
+    align-items: center;
     float: left;
     padding-right: 5%;
     padding-left: 5%;
@@ -35,12 +37,14 @@
 .dish-price-title {
     /* float: left; */
     /* display: flex; */
+    font-size: small;
 }
 
 .dish-price {
     /* float: left; */
     /* display: flex; */
-    font-family: fantasy
+    font-family: fantasy;
+    font-size: small;
 }
 
 .dish-get {
@@ -50,5 +54,5 @@
     color: white;
     border-radius: 18%;
     width: 80%;
-    font-family: fantasy
+    /* font-family: fantasy */
 }
