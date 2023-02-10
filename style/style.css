@@ -1,19 +1,36 @@
 .wrapper {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-left: 5%;
     margin-right: 5%;
+    float: left;
+    border-style: groove;
 }
 
 .dishes-buttons-rows {
     /* height: 100px; */
+    border-style: dotted;
+    width: 100%;
+    float: left;
+    align-content: space-between;
 }
 
-.dish-pic {}
+.dish-pic {
+    float: left;
 
-.dish-prize-label {}
+}
 
-.dish-prize-title {}
+.dish-price-label {
+    /* float: left; */
+}
 
-.dish-prize-price {}
+.dish-price-title {
+    /* float: left; */
+}
 
-.dish-get {}
+.dish-price {
+    /* float: left; */
+}
+
+.dish-get {
+    /* float: left; */
+}
