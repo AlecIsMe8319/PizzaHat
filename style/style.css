@@ -1,58 +1,48 @@
-.wrapper {
-    /* background-color: aqua; */
+.container {
     display: flex;
-
-    margin-right: 5%;
-    float: left;
-    /* border-style: groove; */
-}
-
-.dishes-buttons-rows {
-    /* height: 100px; */
-    display: flex;
-    flex-direction: row;
-    /* border-style: dotted; */
     width: 80%;
-    float: left;
-    justify-content: space-between;
-    padding-right: 10%;
-    padding-left: 5%;
-}
-
-.dish-pic {
-    /* display: flex; */
+    height: auto;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    float: left;
-    padding-right: 5%;
-    padding-left: 5%;
-
+    align-content: flex-start;
 }
 
-.dish-price-label {
-    /* float: left; */
-    /* display: flex; */
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    width: 80px;
+    margin: 10px;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 10px; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-.dish-price-title {
-    /* float: left; */
-    /* display: flex; */
-    font-size: small;
+.buttons-pic {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
 }
 
-.dish-price {
-    /* float: left; */
-    /* display: flex; */
-    font-family: fantasy;
-    font-size: small;
+.buttons-name {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
 }
 
-.dish-get {
-    /* float: left; */
-    /* display: flex; */
-    background-color: orange;
-    color: white;
-    border-radius: 18%;
-    width: 80%;
-    /* font-family: fantasy */
+.buttons-price {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.buttons-add {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
 }

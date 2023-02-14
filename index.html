@@ -7,142 +7,186 @@
 
     <script src="script/index.js"></script>
 
-    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style/cssgrid.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width = device-width,initial-scale=1.0">
 </head>
 
 <body>
-    <div class="wrapper">
-        <section class="dishes-buttons">
-            <div class="dishes-buttons-rows">
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/buger.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Buger</span>
-                        <span class="dish-price">$4.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/fries.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Fries</span>
-                        <span class="dish-price">$1.49</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/hotdog.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Hotdog</span>
-                        <span class="dish-price">$3.49</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/tako.png">
-                    </picture>
-
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Tako</span>
-                        <span class="dish-price">$3.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
+    <div class="container">
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/buger.png">
             </div>
-            <div class="dishes-buttons-rows">
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/pizza.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Pizza</span>
-                        <span class="dish-price">$7.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/donut.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Donut</span>
-                        <span class="dish-price">$1.49</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/popcorn.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Popcorn</span>
-                        <span class="dish-price">$1.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/coke.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Coke</span>
-                        <span class="dish-price">$1.49</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
+            <div class="buttons-name">
+                Buger
             </div>
-            <div class="dishes-buttons-rows">
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/cake.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Cake</span>
-                        <span class="dish-price">$10.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/icecream.png">
-                    </picture>
-
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Icecream</span>
-                        <span class="dish-price">$5.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/cookie.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Cookie</span>
-                        <span class="dish-price">$3.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
-                <div class="dish-pic">
-                    <picture>
-                        <img src="image/flan.png">
-                    </picture>
-                    <div class="dish-price-label">
-                        <span class="dish-price-title">Flan</span>
-                        <span class="dish-price">$7.99</span>
-                    </div>
-                    <button class="dish-get">ADD</button>
-                </div>
+            <div class="buttons-price">
+                $4.99
             </div>
-        </section>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/fries.png">
+            </div>
+            <div class="buttons-name">
+                Fries
+            </div>
+            <div class="buttons-price">
+                $1.49
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/hotdog.png">
+            </div>
+            <div class="buttons-name">
+                Hotdog
+            </div>
+            <div class="buttons-price">
+                $3.49
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/tako.png">
+            </div>
+            <div class="buttons-name">
+                Tako
+            </div>
+            <div class="buttons-price">
+                $3.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/pizza.png">
+            </div>
+            <div class="buttons-name">
+                Pizza
+            </div>
+            <div class="buttons-price">
+                $7.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/donut.png">
+            </div>
+            <div class="buttons-name">
+                Donut
+            </div>
+            <div class="buttons-price">
+                $1.49
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/popcorn.png">
+            </div>
+            <div class="buttons-name">
+                Popcorn
+            </div>
+            <div class="buttons-price">
+                $1.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/coke.png">
+            </div>
+            <div class="buttons-name">
+                Coke
+            </div>
+            <div class="buttons-price">
+                $1.49
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/cake.png">
+            </div>
+            <div class="buttons-name">
+                Cake
+            </div>
+            <div class="buttons-price">
+                $10.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/icecream.png">
+            </div>
+            <div class="buttons-name">
+                Icecream
+            </div>
+            <div class="buttons-price">
+                $5.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/cookie.png">
+            </div>
+            <div class="buttons-name">
+                Cookie
+            </div>
+            <div class="buttons-price">
+                $3.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="buttons-pic">
+                <img src="image/flan.png">
+            </div>
+            <div class="buttons-name">
+                Flan
+            </div>
+            <div class="buttons-price">
+                $7.99
+            </div>
+            <div class="buttons-add">
+                <button>ADD</button>
+            </div>
+        </div>
     </div>
+
+    </div>
+
 </body>
 
 </html>

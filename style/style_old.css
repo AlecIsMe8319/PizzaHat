@@ -1,0 +1,58 @@
+.wrapper {
+    /* background-color: aqua; */
+    display: flex;
+
+    margin-right: 5%;
+    float: left;
+    /* border-style: groove; */
+}
+
+.dishes-buttons-rows {
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+    /* border-style: dotted; */
+    width: 80%;
+    float: left;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.dish-pic {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.dish-price-label {
+    /* float: left; */
+    /* display: flex; */
+}
+
+.dish-price-title {
+    /* float: left; */
+    /* display: flex; */
+    font-size: small;
+}
+
+.dish-price {
+    /* float: left; */
+    /* display: flex; */
+    font-family: fantasy;
+    font-size: small;
+}
+
+.dish-get {
+    /* float: left; */
+    /* display: flex; */
+    background-color: orange;
+    color: white;
+    border-radius: 18%;
+    width: 80%;
+    /* font-family: fantasy */
+}
