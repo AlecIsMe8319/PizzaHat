@@ -9,7 +9,7 @@
 
 .buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr 1fr;
     width: 80px;
     margin: 20px;
@@ -29,21 +29,12 @@
 
 .buttons-name {
     grid-row-start: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
     margin: auto;
     font-size: smaller;
 }
 
-.buttons-price {
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin: auto;
-    font-size: smaller;
-}
 
-.buttons-add {
+.buttons-apply {
 
     grid-column-start: 1;
     grid-column-end: 3;
