@@ -15,6 +15,13 @@ document.documentElement.addEventListener('touchend', function (event) {
     lastTouchEnd = now;
 }, false);
 
+// 依tg主題變色
+function setThemeClass() {
+    document.documentElement.className = Telegram.WebApp.colorScheme;
+}
+Telegram.WebApp.onEvent('themeChanged', setThemeClass);
+setThemeClass();
+
 
 function buttons_click_1() {
     window.open("https://www.w3schools.com/jsref/event_onclick.asp")
