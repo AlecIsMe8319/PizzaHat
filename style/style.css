@@ -3,7 +3,7 @@
     width: 60%;
     height: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     align-content: flex-start;
 }
 
@@ -35,7 +35,6 @@
 
 
 .buttons-apply {
-
     grid-column-start: 1;
     grid-column-end: 3;
     margin: auto;
