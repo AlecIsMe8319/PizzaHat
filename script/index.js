@@ -26,7 +26,7 @@ document.documentElement.addEventListener('touchend', function (event) {
 // Telegram.WebApp.onEvent('themeChanged', setThemeClass);
 // setThemeClass();
 
-BackButton.isVisible = true;
+BackButton.show();
 
 // 按鈕連結區
 function buttons_click_1() {
