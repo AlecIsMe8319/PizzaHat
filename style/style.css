@@ -3,9 +3,19 @@
     width: 60%;
     height: auto;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    /* margin: auto; */
+}
+
+.content {
+    display: flex;
+    width: 60%;
+    height: auto;
+    flex-wrap: wrap;
     /* justify-content: center; */
     align-content: flex-start;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .buttons {
