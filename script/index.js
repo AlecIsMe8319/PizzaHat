@@ -1,3 +1,5 @@
+import "https://telegram.org/js/telegram-web-app.js"
+
 // 禁用雙指放大
 document.documentElement.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {
@@ -24,6 +26,7 @@ document.documentElement.addEventListener('touchend', function (event) {
 // Telegram.WebApp.onEvent('themeChanged', setThemeClass);
 // setThemeClass();
 
+BackButton.isVisible = true;
 
 // 按鈕連結區
 function buttons_click_1() {
