@@ -8,16 +8,6 @@
     /* margin: auto; */
 }
 
-.content {
-    display: flex;
-    width: 60%;
-    height: auto;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-content: flex-start;
-    /* margin: auto; */
-}
-
 .buttons {
     display: grid;
     grid-template-columns: 1fr;
