@@ -8,24 +8,32 @@
     /* margin: auto; */
 }
 
-.section-1 {
+.div-section {
     /* justify-content: center;
     align-content: flex-start;
     margin: auto; */
     display: flex;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(214, 213, 213); */
 }
 
-.section-2 {
+.sub-title {
     width: 100%;
     background-color: rgb(214, 213, 213);
 }
 
-.section-3 {
+.workno {
     width: 100%;
     background-color: rgb(214, 213, 213);
 }
 
-.section-4 {
+.applydate {
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+}
+
+.note {
     width: 100%;
     background-color: rgb(214, 213, 213);
 }
