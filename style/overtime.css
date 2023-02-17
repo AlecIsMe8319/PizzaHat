@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-column-gap: 10px;
+    grid-template-rows: auto;
     /* margin: auto; */
 }
 
@@ -22,4 +22,10 @@
 .note {
     width: 100%;
     background-color: rgb(214, 213, 213);
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }

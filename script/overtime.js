@@ -25,4 +25,8 @@ function setDate() {
     var d = new Date().toLocaleDateString();
     document.getElementById("applydate").value = d;
 };
-
+var clicktime = 0;
+function plusbutton() {
+    clicktime = clicktime + 1;
+    console.log(clicktime);
+}
