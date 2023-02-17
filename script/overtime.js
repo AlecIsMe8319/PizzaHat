@@ -19,8 +19,11 @@ document.documentElement.addEventListener('touchend', function (event) {
 }, false);
 
 
-// 按鈕連結區
+
+// 设定今天日期
 function setDate() {
     var d = new Date().toLocaleDateString();
-    document.getElementById("applydate").innerHTML = d;
+    document.getElementById("applydate").value = d;
+    console.log(d);
 };
+

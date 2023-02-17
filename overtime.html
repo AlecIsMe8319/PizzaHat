@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width = device-width,initial-scale=1.0">
+
 </head>
 
 <body>
@@ -24,22 +25,21 @@
             <input type="text" id="workno" name="workno" placeholder="工号">
         </div>
         <div class="applydate">
-            <input type="text" id="applydate" name="applydate">
+            <input type="text" id="applydate" name="applydate" disabled="disabled">
         </div>
 
         <div class="sub-title">
             2.加班訊息
         </div>
-
-
-
         <div class="sub-title">
             3.備註
         </div>
         <div class="note">
             <input type="text" id="note" name="note" placeholder="备注">
         </div>
-
+        <script>
+            $(document).ready(setDate());
+        </script>
     </div>
 
 
