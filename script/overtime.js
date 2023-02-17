@@ -24,6 +24,5 @@ document.documentElement.addEventListener('touchend', function (event) {
 function setDate() {
     var d = new Date().toLocaleDateString();
     document.getElementById("applydate").value = d;
-    console.log(d);
 };
 
