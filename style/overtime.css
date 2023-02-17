@@ -1,5 +1,5 @@
 .container {
-    display: flex;
+    display: grid;
     width: 60%;
     height: auto;
     flex-wrap: wrap;
