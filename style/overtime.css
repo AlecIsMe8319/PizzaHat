@@ -33,7 +33,7 @@
 
 .details-new {
     display: grid;
-    grid-template-columns: 1fr 20px;
+    grid-template-columns: 0.9fr 0.1fr;
     grid-template-areas: "left right";
     border-style: dashed;
 }
