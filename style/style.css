@@ -1,5 +1,6 @@
 .container {
-    display: flex;
+    display: inline-flex;
+    /* display: flex; */
     width: 60%;
     height: auto;
     flex-wrap: wrap;
