@@ -33,6 +33,7 @@ function plusbutton() {
     // console.log(clicktime);
     var detail = document.querySelector(".detail");
     var newdiv = document.createElement("cm");
+    newdiv.setAttribute("id", clicktime);
     newdiv.innerHTML = `<div class="details-new ${clicktime}">\
     <div class="detail-left">\
         <div class="details-new-rowno-${clicktime}">\
@@ -75,6 +76,5 @@ function plusbutton() {
 
 // 删除明细表
 function minusbutton(classid) {
-    var delete_div = document.getElementById(`details-new ${clicktime}`);
-    delete_div.innerHTML = "";
+    document.getElementById(classid).remove();
 }
