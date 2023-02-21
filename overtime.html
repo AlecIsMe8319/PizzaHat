@@ -17,6 +17,7 @@
 
 <body>
     <div class="container">
+
         <h1>加班申請單</h1>
         <div class="sub-title">
             1.基本信息
@@ -34,6 +35,7 @@
         </div>
         <div class="detail">
             <div class="details-pro">
+
                 <div class="details-pro-rowno">
                     <input type="text" id="rowno" name="rowno" placeholder="序号">
                 </div>
@@ -61,17 +63,25 @@
                 <div class="details-pro-settle-up">
                     <input type="text" id="settle-up" name="settle-up" placeholder="结算方式">
                 </div>
+
             </div>
         </div>
+
         <div class="sub-title">
             3.備註
         </div>
         <div class="note">
             <input type="text" id="note" name="note" placeholder="备注">
         </div>
+
         <script>
             $(document).ready(setDate());
         </script>
+
+        <div class="submit">
+            <button onclick="submit()">送出</button>
+        </div>
+
     </div>
 
 
