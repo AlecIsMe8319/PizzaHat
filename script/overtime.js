@@ -33,34 +33,48 @@ function plusbutton() {
     // console.log(clicktime);
     var detail = document.querySelector(".detail");
     var newdiv = document.createElement("cm");
-    newdiv.innerHTML = `<div class="details ${clicktime}">\
-    <div class="detail-rowno- ${clicktime}">\
-        序号\
+    newdiv.innerHTML = `<div class="details-new ${clicktime}">\
+    <div class="detail-left">\
+        <div class="details-new-rowno-${clicktime}">\
+            序号\
+        </div>\
+        <div class="details-new-reason-${clicktime}">\
+            加班原因\
+        </div>\
+        <div class="details-new-location-${clicktime}">\
+            加班地点\
+        </div>\
+        <div class="details-new-overtime-date-${clicktime}">\
+            加班日期\
+        </div>\
+        <div class="details-new-overtime-start-${clicktime}">\
+            加班开始时间\
+        </div>\
+        <div class="details-new-overtime-end-${clicktime}">\
+            加班结束时间\
+        </div>\
+        <div class="details-new-overtime-break-${clicktime}">\
+            加班休息小时\
+        </div>\
+        <div class="details-new-overtime-time-${clicktime}">\
+            加班时长\
+        </div>\
+        <div class="details-new-settle-up-${clicktime}">\
+            结算方式\
+        </div>\
     </div>\
-    <div class="detail-reason- ${clicktime}">\
-        加班原因\
-    </div>\
-    <div class="detail-location- ${clicktime}">\
-        加班地点\
-    </div>\
-    <div class="detail-overtime-date- ${clicktime}">\
-        加班日期\
-    </div>\
-    <div class="detail-overtime-start- ${clicktime}">\
-        加班开始时间\
-    </div>\
-    <div class="detail-overtime-end- ${clicktime}">\
-        加班结束时间\
-    </div>\
-    <div class="detail-overtime-break- ${clicktime}">\
-        加班休息小时\
-    </div>\
-    <div class="detail-overtime-time- ${clicktime}">\
-        加班时长\
-    </div>\
-    <div class="detail-settle-up- ${clicktime}">\
-        结算方式\
+    <div class="details-right">\
+        <div class="details-new-delete">\
+            <button class="close-tab-button" onclick="minusbutton(${clicktime})">-</button>\
+        </div>\
     </div>\
 </div>`;
     detail.appendChild(newdiv);
+}
+
+
+// 删除明细表
+function minusbutton(classid) {
+    var delete_div = document.getElementById(`details-new ${clicktime}`);
+    delete_div.innerHTML = "";
 }

@@ -9,7 +9,7 @@
     background-color: rgb(214, 213, 213);
 }
 
-.workno {
+/* .workno {
     width: 100%;
     background-color: rgb(214, 213, 213);
 }
@@ -22,10 +22,30 @@
 .note {
     width: 100%;
     background-color: rgb(214, 213, 213);
-}
+} */
 
-.detail {
+.details-pro {
     display: grid;
     grid-template-columns: 1fr;
+    border-style: dashed;
 
+}
+
+.details-new {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    grid-template-areas: "left right";
+    border-style: dashed;
+}
+
+.details-left {
+    grid-area: left;
+}
+
+.details-right {
+    grid-area: right;
+}
+
+.details-new-delete {
+    height: 100%;
 }
