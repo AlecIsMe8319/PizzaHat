@@ -1,19 +1,16 @@
 .container {
-    display: inline-flex;
+    display: flex;
     /* display: flex; */
-    width: 60%;
-    height: auto;
+    /* height: auto; */
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* align-content: flex-start; */
-    /* margin: auto; */
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr 1fr;
-    width: 80px;
+    width: 100px;
     margin: 20px;
     /* grid-row-gap: 5px;
     grid-column-gap: 10px; */
@@ -26,7 +23,6 @@
     grid-column-start: 1;
     grid-column-end: 3;
     margin: auto;
-
 }
 
 .buttons-name {
