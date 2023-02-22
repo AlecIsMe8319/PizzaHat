@@ -1,16 +1,19 @@
 .container {
     display: flex;
     /* display: flex; */
+    width: 60%;
     /* height: auto; */
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr 1fr;
-    width: 100px;
+    width: 80px;
     margin: 20px;
     /* grid-row-gap: 5px;
     grid-column-gap: 10px; */
