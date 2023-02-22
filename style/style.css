@@ -1,7 +1,5 @@
 .container {
     display: flex;
-    /* display: flex; */
-    width: 60%;
     height: auto;
     flex-wrap: wrap;
     justify-content: flex-start;
